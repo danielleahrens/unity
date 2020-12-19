@@ -1,6 +1,56 @@
 .About {
-  background-image: url(./images/IMG_2409.JPG);
+  height: 100%;
+
+}
+
+.hero-wrapper {
+  background-image: url('./images/IMG_2409.JPG');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  min-height: 900px;
   height: 100%;
+  color: #354a3a;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.about-hero {
+  background: rgba(196, 183, 165, 0.5);
+  min-height: 900px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-title {
+  font-family: 'Caveat', cursive;
+  font-size: 72px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #354a3a;
+  color: #c4b7a5;
+  font-weight: light;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.about-content {
+  background-color: #c4b7a5;
 }

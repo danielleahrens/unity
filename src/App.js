@@ -22,13 +22,13 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="header">
-          <ul className="header-menu">
-            <button onClick={() => this.setState({display: 'About'})}>About</button>
-            <button onClick={() => this.setState({display: 'Ceremony'})}>Ceremony</button>
-            <button onClick={() => this.setState({display: 'Reception'})}>Reception</button>
-            <button onClick={() => this.setState({display: 'OutOfTowners'})}>Out of Towners</button>
-            <button onClick={() => this.setState({display: 'Registry'})}>Registry</button>
-          </ul>
+          <div className="header-menu">
+            <a className="header-menu-item" onClick={() => this.setState({display: 'About'})}>About</a>
+            <a className="header-menu-item" onClick={() => this.setState({display: 'Ceremony'})}>Ceremony</a>
+            <a className="header-menu-item" onClick={() => this.setState({display: 'Reception'})}>Reception</a>
+            <a className="header-menu-item" onClick={() => this.setState({display: 'OutOfTowners'})}>Out of Towners</a>
+            <a className="header-menu-item" onClick={() => this.setState({display: 'Registry'})}>Registry</a>
+          </div>
         </header>
         <div className="body">
           {(this.state.display === 'About') ? <About /> : <div /> }

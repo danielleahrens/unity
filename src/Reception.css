@@ -1,0 +1,14 @@
+.Reception {
+  text-align: left;
+  color: #c4b7a5;
+  background-color: #4b6150;
+  width: 100%;
+  height: 98%;
+  overflow-y: scroll;
+}
+
+.reception-wrapper {
+  width: 70%;
+  padding-top: 5%;
+  margin: 0% 15% 0% 15%;
+}
