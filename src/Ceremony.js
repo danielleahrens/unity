@@ -1,3 +1,6 @@
+import React from 'react';
+import Location from './Location.js'
+
 import './Ceremony.css'
 
 function Ceremony() {
@@ -8,6 +11,7 @@ function Ceremony() {
         <p>We will be having a small ceremony with close friends and family during the week.</p>
         <a className="button">RSVP</a>
         <h2>Ceremony Details</h2>
+        <Location/>
         <div>date and time info</div>
         <div>name of venue (i.e. Sunken Garden in Como Zoo Conservatory) and address</div>
         <div>Parking instructions, navigating into venue instructions</div>
