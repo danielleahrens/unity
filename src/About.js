@@ -125,7 +125,7 @@ function About() {
           Here's a little bit of a story about what we're doing after we're married.
 
 
-          AIzaSyDGidYloT_YCvEwmntv5ewu5VyyLq0Xu1I
+          
         </div>
       </div>
     </div>
