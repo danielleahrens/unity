@@ -3,8 +3,9 @@
   color: #c4b7a5;
   background-color: #4b6150;
   width: 100%;
-  height: 98%;
+  height: 100%;
   overflow-y: scroll;
+  padding-bottom: 100px;
 }
 
 .ceremony-wrapper {
@@ -13,10 +14,23 @@
   margin: 0% 15% 0% 15%;
 }
 
+.ceremony-h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 72px;
+}
+
 .ceremony-details {
 
 }
 
 .ceremony-dinner-details {
 
+}
+
+.ceremony-copy {
+  padding-bottom: 15px;
+}
+
+.rsvp-button {
+  margin-left: 0px;
 }

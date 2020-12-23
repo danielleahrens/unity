@@ -4,7 +4,7 @@ function Registry() {
   return (
     <div className="Registry">
       <div className="registry-wrapper">
-        <h1>A Non-Traditional Registry</h1>
+        <h1 className="registry-h1">A Non-Traditional Registry</h1>
         <div>After over 10 years together, we don't need a lot of traditional wedding registry items. Instead, we ask that you consider donating to some of the organizations that we have supported for many years. We support a combination of local and international charities and non-profits. Some focus on the needs of the local community, others tackle global problems. Some organizations tackle global issues by working on the local level with state governments.</div>
         <h3>Help the Local Communities We've Lived In:</h3>
         <ul className="registry-list">

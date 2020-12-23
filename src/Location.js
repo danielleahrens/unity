@@ -98,6 +98,10 @@ class Location extends Component {
       name={'Zen Box Izakaya'}
       position={{lat: 44.978291, lng: -93.259525}}
       onClick={this.onMarkerClick} />
+    <Marker
+      name={'Dave and Lilly\'s House'}
+      position={{lat: 45.324192, lng: -93.304084}}
+      onClick={this.onMarkerClick}/>
     <InfoWindow
       options={{maxWidth:150}}
       marker={this.state.activeMarker}
