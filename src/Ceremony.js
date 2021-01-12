@@ -27,7 +27,7 @@ class Ceremony extends Component {
         <div className="ceremony-wrapper">
           <h1 className="ceremony-h1">Our Wedding Day</h1>
           <p className="ceremony-copy">We will be having a small ceremony with close family during the week. We look forward to celebrating with all our friends and family at our open house reception on the following Saturday!</p>
-          <a className="button rsvp-button">RSVP</a>
+          <a className="rsvp-button" onClick={() => {this.props.ceremonyCallback('Rsvp')}}>RSVP</a>
           <div className="ceremony-details">
             <h2>Ceremony Details</h2>
             <p><b>When:</b> ##:## PM on XXX the ##th of XXXXXXXXX</p>

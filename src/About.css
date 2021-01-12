@@ -50,6 +50,10 @@
   border-radius: 5px;
 }
 
+.button:hover {
+  background-color: #4b6150;
+}
+
 .about-content {
   background-color: #c4b7a5;
 }

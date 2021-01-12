@@ -10,7 +10,6 @@
 
 .reception-wrapper {
   width: 70%;
-  padding-top: 5%;
   margin: 0% 15% 0% 15%;
 }
 
@@ -25,4 +24,10 @@
 
 .rsvp-button {
   margin-left: 0px;
+  padding: 10px;
+  background-color: #354a3a;
+  color: #c4b7a5;
+  font-weight: light;
+  font-size: 18px;
+  border-radius: 5px;
 }

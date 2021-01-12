@@ -22,7 +22,7 @@ function About() {
             <h1 className="text-title">Izaak & Danielle</h1>
             <div className="button-wrapper">
               <a className="button" href="#contact">Contact</a>
-              <a className="button" href="#about-us">About Us</a>
+              <a className="button" href="#about-us">Our Story</a>
               <a className="button" href="#about-next">What's Next</a>
             </div>
           </div>
@@ -125,7 +125,7 @@ function About() {
           Here's a little bit of a story about what we're doing after we're married.
 
 
-          
+
         </div>
       </div>
     </div>

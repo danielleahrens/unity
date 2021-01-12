@@ -1,4 +1,4 @@
-.OutOfTowners {
+.Faq {
   text-align: left;
   color: #c4b7a5;
   background-color: #4b6150;
@@ -7,16 +7,17 @@
   overflow-y: scroll;
 }
 
-.oot-wrapper {
+.faq-wrapper {
   width: 70%;
-  margin: 0% 15% 0% 15%;
+  margin: 0% 15% 5% 15%
 }
 
-.oot-h1 {
+.faq-h1 {
   font-family: 'Caveat', cursive;
   font-size: 72px;
 }
 
-.oot-copy {
-  font-weight: bold;
+a {
+  text-decoration: none;
+  color: inherit;
 }

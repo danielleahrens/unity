@@ -25,6 +25,15 @@
 
 .header-menu-item {
   padding: 10px;
+  cursor: pointer;
+}
+
+.on-focus {
+  text-decoration: underline;
+}
+
+.header-menu-item:hover {
+  text-decoration: underline;
 }
 
 .body {

@@ -20,7 +20,7 @@ class Reception extends Component {
         <div className="reception-wrapper">
           <h1 className="reception-h1">Celebrate With Us!</h1>
           <p className="reception-copy">We will be having an open house style reception at Danielle's parent's house. Feel free to come and go as you please in your garden party attire!</p>
-          <a className="button rsvp-button">RSVP</a>
+          <a className="rsvp-button" onClick={() => {this.props.receptionCallback('Rsvp')}}>RSVP</a>
           <div className="reception-details">
             <h2>Reception Details</h2>
             <p><b>When:</b> ##:## PM to ##:## PM on XXX the ##th of XXXXXXXXX</p>
