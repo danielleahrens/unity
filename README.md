@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Unity
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A website with details about an upcoming wedding
 
 ## Available Scripts
 
