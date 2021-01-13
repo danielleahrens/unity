@@ -11,7 +11,7 @@ import Faq from './Faq.js'
 class App extends React.Component {
 
   state = {
-    display: 'foo'
+    display: ''
   }
 
   componentDidMount() {
@@ -36,7 +36,7 @@ class App extends React.Component {
             <a className={(this.state.display === 'Reception') ? 'header-menu-item on-focus' : 'header-menu-item'} onClick={() => this.setState({display: 'Reception'})}>Reception</a>
             <a className={(this.state.display === 'OutOfTowners') ? 'header-menu-item on-focus' : 'header-menu-item'} onClick={() => this.setState({display: 'OutOfTowners'})}>Things To Do</a>
             <a className={(this.state.display === 'Registry') ? 'header-menu-item on-focus' : 'header-menu-item'} onClick={() => this.setState({display: 'Registry'})}>Registry</a>
-            <a className={(this.state.display === 'Faq') ? 'header-menu-item on-focus' : 'header-menu-item'} onCLick={() => this.setState({display: 'Faq'})}>FAQ</a>
+            {<a className={(this.state.display === 'Faq') ? 'header-menu-item on-focus' : 'header-menu-item'} onClick={() => this.setState({display: 'Faq'})}>FAQ</a>}
           </div>
         </header>
         <div className="body">
@@ -46,7 +46,7 @@ class App extends React.Component {
           {(this.state.display === 'OutOfTowners') ? <OutOfTowners /> : <div /> }
           {(this.state.display === 'Registry') ? <Registry /> : <div /> }
           {(this.state.display === 'Rsvp') ? <Rsvp eventType = {this.state.display}/> : <div /> }
-          {(this.state.display === 'Faq') ? <Faq eventType = {this.state.display}/> : <div /> }
+          {(this.state.display === 'Faq') ? <Faq /> : <div /> }
         </div>
       </div>
     );

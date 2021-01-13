@@ -20,6 +20,7 @@ function About() {
         <div className="about-hero">
           <div>
             <h1 className="text-title">Izaak & Danielle</h1>
+            <h2 className="about-h2">~ Spring 2022 ~</h2>
             <div className="button-wrapper">
               <a className="button" href="#contact">Contact</a>
               <a className="button" href="#about-us">Our Story</a>
