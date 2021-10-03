@@ -1,41 +1,8 @@
 .App {
   text-align: center;
-  background-color: #c4b7a5;
-  min-height: 100vh;
-}
-
-.header {
-  background-color: #c4b7a5;
-  color: #354a3a;
-  min-height: 50px;
-  display: flex;
-  align-items: center;
-}
-
-.header-menu {
-  font-size: 24px;
-  font-weight: light;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: flex-end;
-  text-decoration: none;
-  flex-wrap: wrap;
-}
-
-.header-menu-item {
-  padding: 10px;
-  cursor: pointer;
-}
-
-.on-focus {
-  text-decoration: underline;
-}
-
-.header-menu-item:hover {
-  text-decoration: underline;
+  max-height: 100vh;
 }
 
 .body {
-  height: 98vh;
+  height: 100vh;
 }

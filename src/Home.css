@@ -1,0 +1,100 @@
+  .paper-line{
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: rgba(255,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 60px;
+  }
+
+  .paper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(224, 211, 175);
+    box-shadow: 0px 0px 5px 0px #888;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .pattern {
+    height: 100%;
+    background-image: repeating-linear-gradient(rgba(224, 211, 175) 0px, rgba(224, 211, 175) 29px, teal 30px);
+  }
+
+  .content {
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 26px;
+    font-family: 'fantasy', chalkduster;
+    font-size: 19px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    max-width: 1200px;
+  }
+  
+  .hero {
+      margin-bottom: 25px;
+  }
+
+  .home-h1 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+  .hero-image-wrapper {
+      transform: rotate(-2deg);
+  }
+
+  .hero-image {
+      filter: sepia(37%);
+      opacity: .94;
+      width: 45%;
+      z-index: 0;
+      position: relative;
+
+  }
+
+  .tape {
+      width: 55%;
+      margin-right: 22.5%;
+      margin-left: 22.5%;
+      margin-bottom: -25px;
+      height: 50px;
+      z-index: 1;
+      position: relative;
+      background-color: #dbd8be;
+      opacity: .8;
+
+  }
+
+  .wedding {
+      margin-top: 25px;
+      margin-bottom: 25px;
+  }
+
+  .reception {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  .copy-wrapper {
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: left;
+  }
+
+  .copy {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      text-align: justify;
+  }
+
+  p {
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+
+  
+  
