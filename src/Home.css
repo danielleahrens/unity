@@ -10,7 +10,8 @@
 
   .paper {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
     background-color: rgba(224, 211, 175);
     box-shadow: 0px 0px 5px 0px #888;
     position: relative;
@@ -41,6 +42,7 @@
   .home-h1 {
       padding-top: 10px;
       padding-bottom: 10px;
+      line-height: 35px;
   }
 
   .hero-image-wrapper {
@@ -50,6 +52,7 @@
   .hero-image {
       filter: sepia(37%);
       opacity: .94;
+      min-width: 300px;
       width: 45%;
       z-index: 0;
       position: relative;
