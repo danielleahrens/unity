@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 import Home from './Home.js'
+import Travel from './Travel.js'
+import Registry from './Registry.js'
+import Faq from './Faq.js'
 
 class App extends React.Component {
 
@@ -14,6 +17,12 @@ class App extends React.Component {
     })
   }
 
+  updateDisplay(display) {
+    this.setState({
+      display: display
+    })
+  }
+
   callbackFunction(displayComponent) {
     this.setState(state => ({
       display: displayComponent
@@ -24,7 +33,24 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="body">
-          {(this.state.display === 'Home') ? <Home /> : <div /> }
+        <div className="paper">
+          <div className="paper-line"/>
+          <div className="pattern">
+            <div className="content">
+              <div className="menu">
+                <div className="menu-item" onClick={() => this.updateDisplay("Home")}>home</div>
+                <div className="menu-item" onClick={() => this.updateDisplay("Travel")}>travel</div>
+                <div className="menu-item" onClick={() => this.updateDisplay("Registry")}>registry</div>
+                <div className="menu-item" onClick={() => this.updateDisplay("Faq")}>faq</div>
+              </div>
+              {(this.state.display === 'Home') ? <Home /> : <div /> }
+              {(this.state.display === 'Travel') ? <Travel /> : <div />}
+              {(this.state.display === 'Registry') ? <Registry /> : <div />}
+              {(this.state.display === 'Faq') ? <Faq /> : <div />}
+            </div>
+          </div>
+        </div>
+
         </div>
       </div>
     );
