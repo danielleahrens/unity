@@ -36,18 +36,21 @@ class App extends React.Component {
         <div className="paper">
           <div className="paper-line"/>
           <div className="pattern">
-            <div className="content">
+            <div className="view">
               <div className="menu">
-                <div className="menu-item" onClick={() => this.updateDisplay("Home")}>home</div>
-                <div className="menu-item" onClick={() => this.updateDisplay("Travel")}>travel</div>
-                <div className="menu-item" onClick={() => this.updateDisplay("Registry")}>registry</div>
-                <div className="menu-item" onClick={() => this.updateDisplay("Faq")}>faq</div>
+                <div className="menu-item" onClick={() => this.updateDisplay("Home")}>Home</div>
+                <div className="menu-item" onClick={() => this.updateDisplay("Travel")}>Travel</div>
+                <div className="menu-item" onClick={() => this.updateDisplay("Registry")}>Registry</div>
+                <div className="menu-item" onClick={() => this.updateDisplay("Faq")}>FAQ</div>
               </div>
-              {(this.state.display === 'Home') ? <Home /> : <div /> }
-              {(this.state.display === 'Travel') ? <Travel /> : <div />}
-              {(this.state.display === 'Registry') ? <Registry /> : <div />}
-              {(this.state.display === 'Faq') ? <Faq /> : <div />}
+              <div className="content">
+                {(this.state.display === 'Home') ? <Home /> : <div /> }
+                {(this.state.display === 'Travel') ? <Travel /> : <div />}
+                {(this.state.display === 'Registry') ? <Registry /> : <div />}
+                {(this.state.display === 'Faq') ? <Faq /> : <div />}
+              </div>
             </div>
+
           </div>
         </div>
 
