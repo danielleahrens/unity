@@ -1,5 +1,5 @@
-import './Home.css'
-import hero from './images/IMG_2409.JPG'
+import './Home.css';
+import hero from './images/IMG_2409.JPG';
 
 function Home() {
   return (

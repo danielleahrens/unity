@@ -1,4 +1,4 @@
-import './Registry.css'
+import './Registry.css';
 
 function Registry() {
     return(

@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Home from './Home.js'
-import Travel from './Travel.js'
-import Registry from './Registry.js'
-import Faq from './Faq.js'
+import Home from './Home.js';
+import Travel from './Travel.js';
+import Registry from './Registry.js';
+import Faq from './Faq.js';
 
 class App extends React.Component {
 

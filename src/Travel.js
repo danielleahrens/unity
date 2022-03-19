@@ -1,4 +1,4 @@
-import './Travel.css'
+import './Travel.css';
 
 function Travel() {
     return(
