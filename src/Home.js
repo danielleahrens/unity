@@ -29,8 +29,8 @@ function Home() {
         </div>
         <div className="home-contact">
             <h2>Questions?</h2>
-            <p className="home-contact-info"><i class="fas fa-envelope home-contact-info-logo"></i> <b>Email:</b> <a href="mailto:danielle.c.ahrens+wedding@gmail.com">danielle.c.ahrens@gmail.com</a></p>
-            <p className="home-contact-info"><i class="fas fa-mobile-alt home-contact-info-logo"></i> <b>Call or Text:</b> <a href="tel:651-808-1960">651-808-1960</a></p>
+            <p className="home-contact-info"><i class="fas fa-envelope home-contact-info-logo"></i> <b>Email:</b> <a href="mailto:danielle.c.ahrens+wedding@gmail.com" className="size-break">danielle.c.ahrens@gmail.com</a></p>
+            <p className="home-contact-info"><i class="fas fa-mobile-alt home-contact-info-logo"></i> <b>Call or Text:</b> <a href="tel:651-808-1960" className="size-break">651-808-1960</a></p>
         </div>
     </div>
   )
