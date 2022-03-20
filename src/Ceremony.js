@@ -3,9 +3,14 @@ import './Ceremony.css';
 function Ceremony() {
     return(
         <div className="Ceremony">
-            <h2>Ceremony Schedule of Events</h2>
+            <h1>Ceremony</h1>
             <div className="details">07 • 07 • 2022</div>
-            <div className="details">St. Paul, MN</div>
+            <h2>Accommadations</h2>
+            <div className="copy">
+                Izaak & Danielle will be staying in an Airbnb in St. Paul for Wednesday and Thursday night for ease of transporation on Thursday. For folks who will be coming into town, you can either find lodging in St. Paul or extend your stay at the hotel in Coon Rapids (~30 minutes away). We don't have any hotel rooms blocked off for these days.
+            </div>
+            <h2>Schedule of Events</h2>
+            
             <div className="ceremony-events">
                 <div className="ceremony-event-wrapper">
                     <div className="ceremony-event"><h3>11:00 AM - Lunch - Red Rabbit</h3></div>
