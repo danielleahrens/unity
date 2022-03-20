@@ -35,9 +35,8 @@ class CeremonyApp extends React.Component {
     render() {
       return (
         <div className="App">
-          <div className="body">
+          <div className="paper">
             <div className="paper-line" />
-            <div classname="paper">
               <div className="pattern">
                 <div className="view">
                   <div className="menu">
@@ -55,7 +54,6 @@ class CeremonyApp extends React.Component {
                     {(this.state.display === 'Faq') ? <Faq /> : <div />}
                   </div>
                 </div>
-              </div>
             </div>
           </div>
         </div>
