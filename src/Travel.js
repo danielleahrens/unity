@@ -52,6 +52,12 @@ function Travel() {
                         </div>
                     </div>
                 </div>
+                <h2>Shuttle</h2>
+                    <div className="travel-content-wrapper">
+                        <div className="travel-content-value">
+                            <p>Parking is limited at Danielle's Parent's house so we'll be providing a shuttle to and from the AmericInn hotel's parking lot. The shuttle will leave the hotel and Oak Grove once an hour with the first shuttle to Oak Grove leaving the AmericInn hotel's parking lot at 2:30 PM.</p>
+                        </div>
+                    </div>
             </div>
             <div className="airports">
                 <h1>Airport</h1>

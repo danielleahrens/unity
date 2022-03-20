@@ -1,0 +1,15 @@
+.faq-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-question-wrapper {
+    font-weight: bolder;
+}
+
+.faq-answer-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: left;
+}
