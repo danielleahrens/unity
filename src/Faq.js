@@ -10,7 +10,7 @@ function Faq() {
                 </div>
                 <div className="faq-answer-wrapper">
                     <div classname="copy">We'd prefer not to play into the wedding industrial complex's hand too much - so we're planning a much more casual/back to basics celebration than you may be used to.</div>
-                    <div classname="copy">We have planned a party at Danielle's parent's house that will have all the aspects of a wedding we love - friends and family gathering together, good food, good drink, music - and less of the aspects we don't enjoy - no formal sit down dinner, no structured time tables</div>
+                    <div classname="copy">Our official marriage ceremony will take place earlier in the week with direct family members. Then on Saturday we have planned a party at Danielle's parent's house that will have all the aspects of a wedding we love - friends and family gathering together, good food, good drink, music - and less of the aspects we don't enjoy - no pagentry, no formal sit down dinner, no structured time tables</div>
                 </div>
             </div>
             <div className="faq-wrapper">
