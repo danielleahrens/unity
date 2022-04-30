@@ -58,7 +58,7 @@ function Faq() {
                     <div classname="faq-question">What so no registry either?</div>
                 </div>
                 <div className="faq-answer-wrapper">
-                    <div classname="copy">We have been very privledged to have the means to build our household up over the last 11 years together. We found that when thinking about a registry, most of what we'd ask of you would be upgrading items we already own. Instead, we'd love it if you'd consider donating to some charities and non-profits in our name.</div>
+                    <div classname="copy">We have been very privileged to have the means to build our household up over the last 11 years together. We found that when thinking about a registry, most of what we'd ask of you would be upgrading items we already own. Instead, we'd love it if you'd consider donating to some charities and non-profits in our name.</div>
                 </div>
             </div>
             <div className="faq-wrapper">
@@ -67,7 +67,7 @@ function Faq() {
                 </div>
                 <div className="faq-answer-wrapper">
                     <div classname="copy">We have planned this event to have the utmost flexibility to accomdate the unknowns that the coronavirus brings. We moved our event to high summer for the best chance of good weather. In the event that there is a spike in cases, folks who chose to still attend can spend more of their time outside with good ventillation.</div>
-                    <div classname="copy">Regardless of the case rate, we're asking that everyone in attendance be fully vacinnated with any boosters currently recommended by the CDC for your population group. We're also asking everyone to test themselves with a rapid at-home antigen test just prior to arriving. For folks who cannot or chose not to vaccinate, we ask that you wear a mask for the entirity of the event and that you practice social distancing.</div>
+                    <div classname="copy">Regardless of the case rate, we're asking that everyone in attendance be fully vacinnated with any boosters currently recommended by the CDC for your population group. We're also asking everyone to test themselves with a rapid at-home antigen test just prior to arriving. For folks who cannot or chose not to vaccinate, we ask that you wear a mask while indoors.</div>
                 </div>
             </div>
         </div>

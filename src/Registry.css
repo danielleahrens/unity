@@ -1,0 +1,28 @@
+.registry-list {
+    text-align: left;
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.registry-list-full {
+    text-align: left;
+}
+
+.registry-list-header-full {
+    text-align: left;
+    font-weight: bold;
+}
+
+.registry-list-header {
+    font-weight: bold;
+}
+
+.registry-text {
+    text-align: left;
+}
+
+@media only screen and (max-width: 750px) {
+    .registry-list {
+        column-count: auto;
+    }
+}
