@@ -66,8 +66,8 @@ function Faq() {
                     <div classname="faq-question">What's your COVID plan?</div>
                 </div>
                 <div className="faq-answer-wrapper">
-                    <div classname="copy">We have planned this event to have the utmost flexibility to accomdate the unknowns that the coronavirus brings. We moved our event to high summer for the best chance of good weather. In the event that there is a spike in cases, folks who chose to still attend can spend more of their time outside with good ventillation.</div>
-                    <div classname="copy">Regardless of the case rate, we're asking that everyone in attendance be fully vacinnated with any boosters currently recommended by the CDC for your population group. We're also asking everyone to test themselves with a rapid at-home antigen test just prior to arriving. For folks who cannot or chose not to vaccinate, we ask that you wear a mask while indoors.</div>
+                    <div classname="copy">We have planned this event to have the utmost flexibility to accomdate the unknowns that the coronavirus brings. We moved our event to high summer for the best chance of good weather. In the event that there is a spike in cases, folks who chose to still attend can spend almost the entirity of their time outside with good ventillation.</div>
+                    <div classname="copy">Regardless of the case rate, we're asking that everyone in attendance be fully vacinnated with any boosters currently recommended by the CDC for your population group. We're also asking everyone to test themselves with a rapid at-home test just prior to arriving. For folks who are unvaccinated, we ask that you wear a mask while indoors.</div>
                 </div>
             </div>
         </div>

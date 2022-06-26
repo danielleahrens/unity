@@ -23,7 +23,7 @@ function Home() {
         </div>
         <div className="copy-wrapper">
             <p className="copy">We look forward to celebrating all of Saturday with our friends and family at our open house after our small wedding ceremony earlier in the week.</p>
-            <p className="copy">We encourage everyone who is attending to be fully vaccinated and boosted. Prior to attending, please plan to have a negative COVID-19 test within 3 days before attending. We ask that non-vaccianted people wear a mask while indoors.</p>
+            <p className="copy">We encourage everyone who is attending to be fully vaccinated and boosted. Everyone should take an over-the-counter rapid COVID-19 test on Saturday morning before arriving, and only come if the test is negative. If you can’t find a test, let us know! We ask that non-vaccianted people wear a mask while indoors.</p>
             <p className="copy">We can't wait to see you!</p>
             <h3>Danielle & Izaak</h3>
         </div>
